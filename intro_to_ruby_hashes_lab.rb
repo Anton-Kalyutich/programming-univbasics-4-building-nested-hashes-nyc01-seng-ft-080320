@@ -21,7 +21,11 @@ def monopoly_with_third_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-  
+   my_hash = {:railroads => {}}
+   my_hash[:railroads][:pieces] = 4
+   my_hash[:railroads][:rent_in_dollars] = {}
+   my_hash[:railroads][:names] = {}
+   my_hash
 end
 
 def monopoly_with_fourth_tier
