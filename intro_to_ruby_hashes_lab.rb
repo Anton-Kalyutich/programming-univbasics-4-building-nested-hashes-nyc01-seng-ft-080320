@@ -10,6 +10,7 @@ def monopoly_with_second_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
    {:railroads => {}}
+   
 end
 
 def monopoly_with_third_tier
